@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-      branches: [develop]
+      branches: [main]
   pull_request:
-      branches: [develop]
+      branches: [main]
 jobs:
   build:
     # FIXME: This builds with macOS 10.15. Move this to the 11.0 builders when possible. (See: https://github.com/actions/virtual-environments/issues/2486)
